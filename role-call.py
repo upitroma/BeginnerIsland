@@ -1,5 +1,6 @@
 import turtle
 from role_call_lib.delbertina import write_name_delbertina
+from role_call_lib.awesomea11en import write_name_awesomea11en
 
 # Add a file to the role_call_lib folder for your username
 # Use the turtle library to write your name out (no more than 50 tall)
@@ -35,10 +36,16 @@ turtle.Screen().setup(screen_size_x, screen_size_y)
 # Create an instance of a turtle
 typing_turtle = turtle.Turtle()
 
+
 # (Copy and change username to your file)
 clean_up_draw(typing_turtle)
 turtle_name_index += 1
 write_name_delbertina(typing_turtle)
+
+# awesomea11en
+clean_up_draw(typing_turtle)
+turtle_name_index += 1
+write_name_awesomea11en(typing_turtle)
 
 # Add yours here
 
